@@ -15,7 +15,7 @@ def main():
                         help='rank of current process')
     parser.add_argument('--world_size', default=2, type=int,
                         help="world size")
-    parser.add_argument('--init_method', default='tcp://124.16.138.88:12012',
+    parser.add_argument('--init_method', default='tcp://localhost:18888',
                         help="init-method")
 
     parser.add_argument('--gpuid', default=0, type=int,
